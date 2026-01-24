@@ -32,5 +32,17 @@ export default {
   backend: "Backend & Herramientas",
   },
 
+  projects: {
+  title: "Proyectos",
+
+  main: {
+    title: "Project Manager Dashboard",
+    description:
+      "Aplicación web para la gestión de proyectos. Desarrollada con React en el front-end y una API REST en Laravel. Incluye autenticación, CRUD y consumo de API.",
+    status: "En desarrollo",
+  },
+  },
+
+
 
 };

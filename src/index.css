@@ -112,3 +112,45 @@ a:hover {
   margin-bottom: 0.5rem;
   color: var(--muted-text);
 }
+
+.project-card {
+  background-color: var(--surface-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+.project-description {
+  color: var(--muted-text);
+  line-height: 1.5;
+}
+
+.project-status {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #facc15;
+}
+
+.project-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.project-links a {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}

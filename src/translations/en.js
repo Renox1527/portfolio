@@ -29,8 +29,18 @@ export default {
   title: "Skills",
 
   frontend: "Front-end",
-  
+
   backend: "Backend & Tools",
+  },
+
+  projects: {
+  title: "Projects",
+  main: {
+    title: "Project Manager Dashboard",
+    description:
+      "Web application for project management. Built with React on the front-end and a Laravel REST API. Includes authentication, CRUD features, and API consumption.",
+    status: "In progress",
+  },
   },
 
 };
