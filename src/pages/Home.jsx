@@ -1,8 +1,9 @@
 export default function Home({ texts }) {
   return (
-    <section>
+    <main className="container">
       <h1>{texts.home.title}</h1>
-      <p>{texts.home.subtitle}</p>
-    </section>
+      <p className="subtitle">{texts.home.subtitle}</p>
+    </main>
   );
 }
+
