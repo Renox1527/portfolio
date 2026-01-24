@@ -21,6 +21,16 @@ export default {
 
   I am interested in joining a team where I can continue learning, contribute best practices,
   and grow professionally as a developer.`,
-},
+
+  
+  },
+
+  skills: {
+  title: "Skills",
+
+  frontend: "Front-end",
+  
+  backend: "Backend & Tools",
+  },
 
 };

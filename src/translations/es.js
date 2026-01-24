@@ -1,13 +1,15 @@
 export default {
   nav: {
-    home: "Inicio",
-    about: "Sobre mí",
-    projects: "Proyectos",
-    contact: "Contacto",
+  home: "Inicio",
+  about: "Sobre mí",
+  projects: "Proyectos",
+  contact: "Contacto",
   },
+
   home: {
-    title: "Hola, soy Reny",
-    subtitle: "Desarrollador Front-End",
+  title: "Hola, soy Reny",
+  
+  subtitle: "Desarrollador Front-End",
   },
 
   about: {
@@ -21,5 +23,14 @@ export default {
   Me interesa formar parte de un equipo donde pueda seguir aprendiendo, aportar
   buenas prácticas y crecer profesionalmente como desarrollador.`,
   },
+
+  skills: {
+  title: "Habilidades",
+
+  frontend: "Front-end",
+
+  backend: "Backend & Herramientas",
+  },
+
 
 };
