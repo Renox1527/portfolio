@@ -69,3 +69,10 @@ a:hover {
   font-size: 1.2rem;
 }
 
+.about-text {
+  max-width: 700px;
+  line-height: 1.6;
+  color: var(--muted-text);
+  white-space: pre-line;
+}
+
