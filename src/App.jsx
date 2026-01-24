@@ -1,22 +1,22 @@
-import { useState } from "react";
-import es from "./translations/es";
-import en from "./translations/en";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
-  const [lang, setLang] = useState("es");
-  const texts = lang === "es" ? es : en;
-
   return (
-    <>
-      <button onClick={() => setLang(lang === "es" ? "en" : "es")}>
-        {lang === "es" ? "EN" : "ES"}
-      </button>
-
-      <h1>{texts.home.title}</h1>
-      <p>{texts.home.subtitle}</p>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
 
