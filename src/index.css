@@ -67,6 +67,7 @@ a:hover {
 .subtitle {
   color: var(--muted-text);
   font-size: 1.2rem;
+  max-width: 700px;
 }
 
 .about-text {
@@ -118,6 +119,12 @@ a:hover {
   padding: 1.5rem;
   border-radius: 8px;
   border: 1px solid #1e293b;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .project-card h3 {

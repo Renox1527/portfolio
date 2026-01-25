@@ -9,7 +9,9 @@ export default function ProjectCard({
     <div className="project-card">
       <h3>{title}</h3>
       <p className="project-description">{description}</p>
-      <span className="project-status">{status}</span>
+
+      {status && (
+      <p className="project-status"><em>{status}</em></p>)}
 
       <div className="project-links">
         {github && (
