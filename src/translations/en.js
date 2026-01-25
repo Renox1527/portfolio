@@ -41,6 +41,15 @@ export default {
       "Web application for project management. Built with React on the front-end and a Laravel REST API. Includes authentication, CRUD features, and API consumption.",
     status: "In progress",
   },
+
+  professional: {
+  title: "Enterprise Web-Based Tax Management System",
+  description:
+    "I participated in the development of a web system for internal use by a company that manages taxes and duties. I worked mainly on the front-end, creating interfaces with HTML, CSS, Bootstrap, and JavaScript, and integrating views with Laravel.",
+  note: "Private repository due to client confidentiality.",
   },
+  
+  },
+
 
 };

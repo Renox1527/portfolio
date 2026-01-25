@@ -13,6 +13,13 @@ export default function Projects({ texts }) {
           github={null}
           demo={null}
         />
+
+        <ProjectCard
+          title={texts.projects.professional.title}
+          description={texts.projects.professional.description}
+          status={texts.projects.professional.note}
+        />
+
       </div>
     </main>
   );

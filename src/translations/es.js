@@ -41,7 +41,16 @@ export default {
       "Aplicación web para la gestión de proyectos. Desarrollada con React en el front-end y una API REST en Laravel. Incluye autenticación, CRUD y consumo de API.",
     status: "En desarrollo",
   },
+
+    professional: {
+    title: "Sistema Web Empresarial de Gestion administrativa tributaria",
+    description:
+      "Participé en el desarrollo de un sistema web para uso interno de una empresa que gestiona impuestos y tributos. Trabajé principalmente en el front-end, creando interfaces con HTML, CSS, Boostrap y JavaScript, e integrando vistas con Laravel.",
+    note: "Repositorio privado por confidencialidad del cliente.",
   },
+  
+  },
+
 
 
 
