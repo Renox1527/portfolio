@@ -48,7 +48,15 @@ export default {
       "Participé en el desarrollo de un sistema web para uso interno de una empresa que gestiona impuestos y tributos. Trabajé principalmente en el front-end, creando interfaces con HTML, CSS, Boostrap y JavaScript, e integrando vistas con Laravel.",
     note: "Repositorio privado por confidencialidad del cliente.",
   },
-  
+
+  },
+
+  contact: {
+  title: "Contacto",
+  text: "¿Te interesa trabajar conmigo o tienes alguna oportunidad laboral? Puedes contactarme a través de los siguientes medios:",
+  email: "Correo electrónico",
+  github: "GitHub",
+  linkedin: "LinkedIn",
   },
 
 

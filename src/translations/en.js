@@ -48,7 +48,15 @@ export default {
     "I participated in the development of a web system for internal use by a company that manages taxes and duties. I worked mainly on the front-end, creating interfaces with HTML, CSS, Bootstrap, and JavaScript, and integrating views with Laravel.",
   note: "Private repository due to client confidentiality.",
   },
-  
+
+  },
+
+  contact: {
+  title: "Contact",
+  text: "Interested in working with me or have a job opportunity? You can reach me through the following channels:",
+  email: "Email",
+  github: "GitHub",
+  linkedin: "LinkedIn",
   },
 
 

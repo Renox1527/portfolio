@@ -154,3 +154,32 @@ a:hover {
   gap: 2rem;
   margin-top: 2rem;
 }
+
+.contact {
+  margin-top: 3rem;
+}
+
+.contact-text {
+  max-width: 600px;
+  color: var(--muted-text);
+  margin-bottom: 2rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 1rem;
+}
+
+.contact-list span {
+  display: inline-block;
+  width: 140px;
+  color: #94a3b8;
+}
+
+.contact-list a {
+  color: var(--accent-color);
+}
