@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 // Components
 import Header from "./components/Header";
@@ -37,6 +38,8 @@ function App() {
         <Route path="/projects" element={<Projects texts={texts} />} />
         <Route path="/contact" element={<Contact texts={texts} />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }

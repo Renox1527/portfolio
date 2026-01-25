@@ -5,10 +5,7 @@ export default function Projects({ texts }) {
     <main className="container">
       <h1>{texts.projects.title}</h1>
 
-    <p className="subtitle">
-      Algunos de los proyectos en los que he trabajado y que representan mi
-      experiencia profesional.
-    </p>
+    <p className="subtitle">{texts.projects.intro}</p>
 
       <div className="projects-grid">
         <ProjectCard

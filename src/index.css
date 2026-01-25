@@ -24,6 +24,7 @@ a {
 
 a:hover {
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .header {
@@ -56,6 +57,11 @@ a:hover {
 .lang-toggle button:hover {
   background-color: var(--accent-color);
   color: #020617;
+}
+
+main.container {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .container {
@@ -96,6 +102,12 @@ a:hover {
   padding: 1.5rem;
   border-radius: 8px;
   border: 1px solid #1e293b;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-group:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .skill-group h3 {
@@ -189,4 +201,13 @@ a:hover {
 
 .contact-list a {
   color: var(--accent-color);
+}
+
+.footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted-text);
+  border-top: 1px solid #1e293b;
+  background-color: #020617;
 }

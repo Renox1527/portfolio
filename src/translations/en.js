@@ -7,9 +7,11 @@ export default {
   },
 
   home: {
-    title: "Hi, I'm Reny",
-    subtitle: "Front-End Developer",
-  },
+  title: "Hi, I'm Reny, front-end developer.",
+  
+  subtitle: "Front-end developer focused on creating clean, functional, and scalable interfaces with HTML/CSS, Bootstrap, Laravel, WordPress, React, and JavaScript.",
+},
+
 
   about: {
   title: "About me",
@@ -35,6 +37,8 @@ export default {
 
   projects: {
   title: "Projects",
+  intro:
+    "These projects reflect my professional experience and continuous learning process.",
   main: {
     title: "Project Manager Dashboard",
     description:

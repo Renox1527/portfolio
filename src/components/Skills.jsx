@@ -12,6 +12,7 @@ export default function Skills({ texts }) {
             <li>JavaScript (Aprendiendo/Learning)</li>
             <li>React (Aprendiendo/Learning)</li>
             <li>Responsive Design</li>
+            <li>Wordpress</li>
           </ul>
         </div>
 
