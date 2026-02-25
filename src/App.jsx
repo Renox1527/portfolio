@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // Pages
 import Home from "./pages/Home";
@@ -24,7 +24,7 @@ function App() {
   const texts = lang === "es" ? es : en;
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* Header siempre visible */}
       <Header texts={texts} />
 
@@ -40,7 +40,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
