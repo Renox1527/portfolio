@@ -18,7 +18,7 @@ import en from "./translations/en";
 
 function App() {
   //Estado del idioma
-  const [lang, setLang] = useState("es");
+  const [lang, setLang] = useState("en");
 
   //Selección de textos según idioma
   const texts = lang === "es" ? es : en;
