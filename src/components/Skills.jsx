@@ -9,8 +9,8 @@ export default function Skills({ texts }) {
           <ul>
             <li>HTML</li>
             <li>CSS</li>
-            <li>JavaScript (Aprendiendo/Learning)</li>
-            <li>React (Aprendiendo/Learning)</li>
+            <li>JavaScript</li>
+            <li>React</li>
             <li>Responsive Design</li>
             <li>Wordpress</li>
           </ul>
@@ -22,6 +22,7 @@ export default function Skills({ texts }) {
             <li>Laravel</li>
             <li>Git & GitHub</li>
             <li>Basic SQL</li>
+            <li>Canva</li>
           </ul>
         </div>
       </div>

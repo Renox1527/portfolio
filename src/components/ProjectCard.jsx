@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function ProjectCard({
   title,
   description,
@@ -6,7 +8,11 @@ export default function ProjectCard({
   demo,
 }) {
   return (
-    <div className="project-card">
+    <motion.div
+      className="project-card"
+      whileHover={{ scale: 1.04 }}
+      transition={{ type: "spring", stiffness: 200 }}
+    >
       <h3>{title}</h3>
       <p className="project-description">{description}</p>
 
@@ -25,6 +31,6 @@ export default function ProjectCard({
           </a>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
